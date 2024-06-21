@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/logo.png";
 import {
   Dialog,
   DialogPanel,
@@ -58,11 +59,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
+            <img className="h-8 w-auto" src={logo} alt="" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -183,7 +180,7 @@ export default function Example() {
                   {({ open }) => (
                     <>
                       <DisclosureButton className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Product
+                        Niveles
                         <ChevronDownIcon
                           className={classNames(
                             open ? "rotate-180" : "",

@@ -12,7 +12,7 @@ const EventCard = ({ date, month, title, imageSrc }) => {
           <h3 className="text-xl font-semibold">{title}</h3>
         </div>
       </div>
-      <img src={imageSrc} alt={title} className="w-full mb-4 rounded-lg" />
+      <img src={imageSrc} alt={title} className="w-full mb-4 h-40 rounded-lg" />
       <button className="text-blue-900 font-bold">LEER MÁS</button>
     </div>
   );

@@ -7,19 +7,22 @@ const Calendar = () => {
       date: "06",
       month: "MAR",
       title: "CEREMONIA DE INAGURACIÓN",
-      imageSrc: "path-to-event1-image.png",
+      imageSrc:
+        "https://lasalleguayaquil.edu.ec/wp-content/uploads/2023/05/1-990x500.jpeg",
     },
     {
       date: "05",
       month: "MAR",
       title: "INICIO DE CLASES",
-      imageSrc: "path-to-event2-image.png",
+      imageSrc:
+        "https://www.canal10.com.ni/wp-content/uploads/2021/11/Estudiantes.jpg",
     },
     {
       date: "04",
       month: "MAR",
       title: "INICIO DE CLASES",
-      imageSrc: "path-to-event3-image.png",
+      imageSrc:
+        "https://elcomercio.pe/resizer/3Mt4UxOwiEt_sPS3UMHRwOeMADQ=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/BH4YQEHIIJCDJJPM5KD7AOS5XI.jpg",
     },
   ];
 
