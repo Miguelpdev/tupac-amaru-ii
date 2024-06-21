@@ -1,25 +1,25 @@
 const people = [
   {
-    name: "RANULFO AROSTEGUI MELGAR",
-    role: "DIRECTOR GENERAL",
+    name: "Ranulfo Arostegui Melgar",
+    role: "Director General",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
-    name: "GIOVANNA PRETELL ENCISO",
-    role: "SUB DIRECTORA SECUNDARIA",
+    name: "Giovanna Pretell Enciso",
+    role: "Sub Directora Secundaria",
     imageUrl:
       "https://models.bestmodelsagency.com/recursos/clientes/F31110A5-6133-4F2E-96A8-927FA9485371/list.jpg?v1589811317?202203111855",
   },
   {
-    name: "BERTHA SULMA CABRERA SULCA",
-    role: "SUB DIRECTORA PRIMARIA",
+    name: "Bertha Sulma Cabrera Sulca",
+    role: "Sub Directora Primaria",
     imageUrl:
       "https://ichef.bbci.co.uk/news/976/cpsprodpb/12A9A/production/_120424467_joy2.jpg",
   },
   {
-    name: "NELLY BARRIENTOS RODRIGUEZ",
-    role: "SUB DIRECTORA INICIAL",
+    name: "Nelly Barrientos Rodriguez",
+    role: "Sub Directora Inicial",
     imageUrl:
       "https://www.liveabout.com/thmb/rBhKn_UAXevzikFrg0AlYgTgMHQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-638316888-58bd8bc93df78c353c5b8631.jpg",
   },
@@ -32,11 +32,12 @@ export default function Team() {
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Meet our leadership
+            Equipo Directivo
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae
-            elementum enim vitae ullamcorper suspendisse.
+            Estamos orgullosos de contar con un equipo directivo comprometido
+            con la excelencia educativa y el desarrollo integral de nuestros
+            estudiantes.
           </p>
         </div>
         <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">

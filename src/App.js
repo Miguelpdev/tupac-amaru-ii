@@ -1,9 +1,8 @@
 // src/App.js
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Directory from "./components/Directory";
-import LevelInitial from "./components/LevelInitial";
 import LevelPrimary from "./components/LevelPrimary";
 import LevelSecondary from "./components/LevelSecondary";
 import Header from "./components/Header";
@@ -44,7 +43,7 @@ const App = () => {
           </ul>
         </nav> */}
         <Header />
-        <div className="container mx-auto p-6">
+        <div className="container mx-auto pl-6 pr-6 pb-6 pt-1">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/directory" element={<Directory />} />
