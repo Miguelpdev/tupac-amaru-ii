@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/logo.png";
+import logo from "../images/logo2.jpg";
 import {
   Dialog,
   DialogPanel,
@@ -127,10 +127,10 @@ export default function Example() {
             Features
           </Link>
           <Link
-            to="#"
+            to="/gallery"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Marketplace
+            Galeria
           </Link>
           <Link
             to="#"
@@ -211,10 +211,10 @@ export default function Example() {
                   Features
                 </Link>
                 <Link
-                  to="#"
+                  to="/gallery"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  Galeria
                 </Link>
                 <Link
                   to="#"

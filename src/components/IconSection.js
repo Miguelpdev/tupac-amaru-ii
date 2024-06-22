@@ -20,7 +20,7 @@ const IconSection = () => {
     {
       src: `${process.env.PUBLIC_URL}/images/ber.png`,
       alt: "BER",
-      text: "BER",
+      text: "B.E.R",
     },
     {
       src: `${process.env.PUBLIC_URL}/images/trabaja.png`,

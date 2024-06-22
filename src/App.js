@@ -8,6 +8,7 @@ import LevelSecondary from "./components/LevelSecondary";
 import Header from "./components/Header";
 import LevelInitialOverview from "./components/LevelInitialOverview";
 import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
 
 const App = () => {
   return (
@@ -50,6 +51,7 @@ const App = () => {
             <Route path="/level-initial" element={<LevelInitialOverview />} />
             <Route path="/level-primary" element={<LevelPrimary />} />
             <Route path="/level-secondary" element={<LevelSecondary />} />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
         </div>
         <Footer />
