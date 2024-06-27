@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const product = {
   name: "Inicial",
-  price: "$192",
+  price: "192 students",
   href: "#",
   breadcrumbs: [
     { id: 1, name: "Institucion", href: "#" },
@@ -47,13 +47,14 @@ const product = {
   description:
     "Los estudiantes del nivel inicial aprenden en un ambiente donde interactúan y se relacionan con el otro de manera respetuosa. Se les plantean diversas experiencias de aprendizaje que les permite descubrir el mundo de manera activa, lúdica, exploratoria y experiencial, desarrollando habilidades y capacidades para desenvolverse con autonomía en la vida diaria pensando siempre en su prójimo.",
   highlights: [
-    "Hand cut and sewn locally",
-    "Dyed with our proprietary colors",
-    "Pre-washed & pre-shrunk",
-    "Ultra-soft 100% cotton",
+    "Ambiente Seguro y Acogedor",
+    "Educadores Calificados y Dedicados",
+    "Aprendizaje a Través del Juego",
+    "Instalaciones Modernas y Equipadas",
+    "Participación Activa de las Familias",
   ],
   details:
-    'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
+    "Nuestra institución educativa inicial ofrece un ambiente seguro y acogedor, con educadores calificados, un currículo personalizado, aprendizaje a través del juego, instalaciones modernas, participación activa de las familias, desarrollo de habilidades sociales y emocionales, y evaluación continua del progreso de cada niño.",
 };
 const reviews = { href: "#", average: 4, totalCount: 117 };
 

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const products = [
   {
     id: 1,
@@ -57,7 +58,7 @@ export default function Gallery() {
             Amaru II.
           </p>
           <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
-            <a
+            <Link
               href="#"
               class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
             >
@@ -80,8 +81,8 @@ export default function Gallery() {
                 <div class="mb-1 text-xs">Imagenes de</div>
                 <div class="-mt-1 font-sans text-sm font-semibold">2024</div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
             >
@@ -104,7 +105,7 @@ export default function Gallery() {
                 <div class="mb-1 text-xs">Imagenes de</div>
                 <div class="-mt-1 font-sans text-sm font-semibold">2023</div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
         <br />

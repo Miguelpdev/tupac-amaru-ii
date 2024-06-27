@@ -3,7 +3,7 @@ const people = [
     name: "Ranulfo Arostegui Melgar",
     role: "Director General",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
     name: "Giovanna Pretell Enciso",
@@ -15,13 +15,13 @@ const people = [
     name: "Bertha Sulma Cabrera Sulca",
     role: "Sub Directora Primaria",
     imageUrl:
-      "https://ichef.bbci.co.uk/news/976/cpsprodpb/12A9A/production/_120424467_joy2.jpg",
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
     name: "Nelly Barrientos Rodriguez",
     role: "Sub Directora Inicial",
     imageUrl:
-      "https://www.liveabout.com/thmb/rBhKn_UAXevzikFrg0AlYgTgMHQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-638316888-58bd8bc93df78c353c5b8631.jpg",
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   // More people...
 ];

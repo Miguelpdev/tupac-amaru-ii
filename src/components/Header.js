@@ -133,10 +133,10 @@ export default function Example() {
             Galeria
           </Link>
           <Link
-            to="#"
+            to="/directory"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Company
+            Directorio
           </Link>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -208,7 +208,7 @@ export default function Example() {
                   to="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  Campus
                 </Link>
                 <Link
                   to="/gallery"
@@ -217,10 +217,10 @@ export default function Example() {
                   Galeria
                 </Link>
                 <Link
-                  to="#"
+                  to="/directory"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Company
+                  Directory
                 </Link>
               </div>
               <div className="py-6">
