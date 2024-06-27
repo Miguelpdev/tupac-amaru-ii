@@ -127,6 +127,12 @@ export default function Example() {
             Campus
           </Link>
           <Link
+            to="/campus"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
+            Architecture
+          </Link>
+          <Link
             to="/gallery"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
