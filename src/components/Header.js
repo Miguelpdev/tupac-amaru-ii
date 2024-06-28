@@ -49,6 +49,9 @@ function classNames(...classes) {
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const handleMenuClose = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
     <header className="bg-white">
@@ -121,7 +124,7 @@ export default function Example() {
           </Popover>
 
           <Link
-            to="https://www.google.com/maps/place/IE+T%C3%BApac+Amaru+II+-+Primar%C3%ADa/@-13.1650762,-74.2494852,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPzRe4D2dHsYYOhsJFrp2H8pfV4yUdfke92F1S0!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPzRe4D2dHsYYOhsJFrp2H8pfV4yUdfke92F1S0%3Dw203-h152-k-no!7i1578!8i1183!4m9!3m8!1s0x91127db89cb22b81:0x2f1cec387e3c80d0!8m2!3d-13.1650762!4d-74.2494852!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11b7jcknp8?entry=ttu"
+            to="https://www.facebook.com/Huascahura.Tupac.Amaru.II/?locale=es_LA"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             Campus
@@ -213,18 +216,21 @@ export default function Example() {
                 <Link
                   to="/campus"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={handleMenuClose}
                 >
                   Campus
                 </Link>
                 <Link
                   to="/gallery"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={handleMenuClose}
                 >
                   Galeria
                 </Link>
                 <Link
                   to="/directory"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={handleMenuClose}
                 >
                   Directory
                 </Link>
