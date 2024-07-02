@@ -10,6 +10,7 @@ import LevelInitialOverview from "./components/LevelInitialOverview";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Campus from "./components/Campus";
+import TopBanner from "./components/TopBanner";
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
             </li>
           </ul>
         </nav> */}
+        <TopBanner />
         <Header />
         <div className="container mx-auto pl-6 pr-6 pb-6 pt-1">
           <Routes>
