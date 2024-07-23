@@ -124,16 +124,10 @@ export default function Example() {
           </Popover>
 
           <Link
-            to="https://www.facebook.com/Huascahura.Tupac.Amaru.II/?locale=es_LA"
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
-            Campus
-          </Link>
-          <Link
             to="/campus"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Architecture
+            Campus
           </Link>
           <Link
             to="/gallery"
